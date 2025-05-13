@@ -1,0 +1,216 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: 'Poppins', sans-serif; 
+}
+
+/* Navigation Bar styles */
+.navbar {
+  background-color: #333; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border-radius: 30px; 
+  text-align: center; 
+}
+
+.navbar a {
+  text-decoration: none; 
+  color: #fff; 
+  font-size: 18px; 
+  text-align: center; 
+}
+
+/* List styles */
+li {
+  list-style-type: none; 
+  margin-bottom: 30px; 
+}
+
+/* Font Size Controls styles */
+.font-size-controls {
+  position: absolute; 
+  top: 50%; 
+  right: 20px; 
+  margin-bottom: 30px; 
+}
+
+.font-size-button {
+  background-color: rgb(255, 255, 255); 
+  color: rgb(0, 0, 0); 
+  padding: 15px;
+  border: 2px; 
+  border-color: black; 
+  border-radius: 50%; 
+  cursor: pointer; 
+  margin: 5px; 
+  font-size: 15px; 
+}
+
+/* More Detail section styles */
+.moredetail {
+  position: absolute; 
+  color: white; 
+  margin-top: 30px; 
+  margin-left: 100px;
+}
+
+.inside-moredetail {
+  line-height: 2; 
+}
+
+.inside-moredetail h1 {
+  font-size: 40px; 
+}
+
+/* Paragraph styles */
+p {
+  text-align: left; 
+  width: 900px; 
+}
+
+/* Span styles */
+span {
+  color: rgb(255, 255, 255); 
+  font-weight: bold;
+}
+
+/* Line1 styles */
+.line1 {
+  height: 2px; 
+  background-color: rgb(18, 241, 241);
+  width: 12%; 
+  margin-left: 0px; 
+  margin-top: 0px; 
+  position: absolute; 
+}
+
+/* Button styles */
+.btn1 {
+  margin-top: 30px; 
+}
+
+.btn1 a {
+  background-color: teal; 
+  color: rgb(0, 0, 0); 
+  padding: 10px 25px; 
+  text-decoration: none;
+  border-radius: 30px; 
+  font-weight: bolder; 
+}
+
+.btn1 i {
+  color: black; 
+  padding: 0px 10px; 
+}
+
+/* Poster styles */
+.poster {
+  margin-top: 130px; 
+  margin-right: 150px;
+  overflow: hidden; 
+}
+
+/* Hover styles for buttons inside allhover class */
+.allhover .btn1 a:hover {
+  background-color: white; 
+  color: rgb(0, 0, 0); 
+}
+
+/* Slideimg styles */
+.slideimg {
+  height: 650px; 
+  width: 500px; 
+  float: right; 
+  border-radius: 50px; 
+}
+
+/* Images hover styles */
+.images:hover {
+  opacity: 0.5; 
+}
+
+/* Popup styles */
+.popup {
+  display: none; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999; 
+  pointer-events: none; /* Remove the white border around the video */
+}
+
+/* Popup content styles */
+.popup-content {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: transparent; 
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: none;
+  /* Enable pointer events on the popup content */
+  pointer-events: auto;
+  z-index: 1;
+}
+
+/* Close button styles */
+.closeBtn {
+  position: absolute;
+  top: 5px; 
+  right: 25px; 
+  font-size: 30px; 
+  cursor: pointer; 
+  color: yellow; 
+  /* Enable pointer events on the close button */
+  pointer-events: auto;
+}
+
+/* Colordots styles */
+.colordots {
+  position: absolute; 
+  top: 20%; 
+  right: 1%; 
+}
+
+/* ColorButton styles */
+.colorButton {
+  color: white; 
+  padding: 10px 10px; 
+  text-decoration: none; 
+  border-radius: 50px; 
+  margin-right: 10px;
+  border: 2px solid white; 
+}
+
+/* BlackButton styles */
+.blackButton {
+  border-color: black;
+  background-color: black; 
+}
+
+/* RedButton styles */
+.redButton {
+  border-color: red; 
+  background-color: red;
+  margin-top: 10px;
+}
+
+/* DarkBlueButton styles */
+.darkBlueButton {
+  border-color: darkblue; 
+  background-color: darkblue; 
+}
+
+/* RandomButton styles */
+.randomButton {
+  border-color: white;
+}
+
+/* ColorButton hover styles */
+.colorButton:hover {
+  background-color: white;
+  color: black; 
+}

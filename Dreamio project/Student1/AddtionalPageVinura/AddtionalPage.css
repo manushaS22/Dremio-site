@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lexend+Exa:wght@100;200;300;400;500;600;700&family=Montserrat:wght@200&family=Quicksand:wght@300;400;500&family=Rancho&family=Rubik:wght@400;500;600;700&display=swap");
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+}
+
+html {
+  font-size: 62.5%;
+  width: 1000px;
+  background-color: black;
+}
+
+/* HEADER */
+
+.header {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* Because we want header to be sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: fixed;
+  z-index: 9;
+  backdrop-filter: blur(30px);
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+/* NAVIGATION */
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 7rem;
+}
+
+.main-nav-link{
+  text-decoration: none; /* Remove the underline */
+  color:rgb(255, 255, 255);
+  font-weight: 1000;
+  font-size: 2rem;
+ 
+}
+
+.main-nav-link:hover{
+  color: orange;
+  /* color: #fff; */
+  text-shadow: 0 0 7px #d0e4ec, 0 0 10px #b9d7e3, 0 0 21px #a1cad9,
+    0 0 42px #8abdd0;
+}
+
+.top_vedio{
+  background-color: rgb(0, 0, 0);
+  width: 1500px;
+  height: 500px;
+  position: fixed;
+  top: 10rem;
+}
+
+
+#video{
+  width: 1500px;
+  height: 400px;
+}
+
+.science_fiction_container{
+    background-color: rgb(105, 105, 105);
+    width: 1500px;
+    height: 500px;
+    position: absolute;
+    top: 50rem;
+    left: 0rem;
+    
+}
+
+.adventure_container{
+    background-color: rgb(105, 105, 105);
+    width: 1500px;
+    height: 500px;
+    position: absolute;
+    top: 102rem;
+    left: 0rem;
+}
+
+.top_movies{
+  background-color: rgb(105, 105, 105);
+  width: 1500px;
+  height: 1500px;
+  position: absolute;
+  top: 154rem;
+  left: 0rem;
+}
+
+.img1{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: 200px;
+    left: 60px;
+}
+
+.img2{
+    width: 100px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: -150px;
+}
+
+.img3{
+    width: 100px;
+    height: 200px;
+    position: relative;
+    top: 60px;
+    left: -140px;
+}
+
+.img4{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: 250px;
+    left: -250px;
+}
+
+h1{
+  position: relative;
+  top: -100px;
+  left: 500px;
+}
+
+p{
+    width: 700px;
+    height: 800px;
+    font-size: 15px;
+    font-weight: bolder;
+    position: relative;
+    left: 500px;
+    top: -50px;
+}
+
+.top1{
+  width: 50px;
+  height: 100px;
+}
+
+#ul1{
+  position: relative;
+  top: 50px;
+  left: 150px;
+}
+
+#ul2{
+  position: relative;
+  top: -1010px;
+  left: 800px;
+}
+
+li{
+  list-style-type: none;
+}
+
+#first{
+  color: rgb(199, 133, 45);
+  font-family: fantasy;
+  position: relative;
+  top: 20px;
+  left: 150px;
+}
+
+#second{
+  color: rgb(199, 133, 45);
+  font-family: fantasy;
+  position: relative;
+  top: -1050px;
+  left: 800px;
+  
+}
+
+
+
+
+

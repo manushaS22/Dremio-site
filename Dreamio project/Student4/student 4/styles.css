@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+html {
+    font-size: 62.5%;
+    width: 100%;
+    height: 10px;
+  }
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    
+}
+
+.header {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1803px;
+    background-color: black;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    position: absolute;
+    z-index: 9;
+    backdrop-filter: blur(30px);
+    position: fixed;
+
+  }
+  
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+/* NAVIGATION */
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 7rem;
+}
+  
+.main-nav-link{
+    text-decoration: none; /* Remove the underline */
+    color:rgb(255, 255, 255);
+    font-weight: 1000;
+    font-size: 2rem;
+}
+  
+.main-nav-link:hover{
+    color: orange;
+    
+}
+
+.container {
+    background-color:rgb(0, 0, 0);
+    min-height: calc(100vh - 50px);
+}
+
+.topGif {
+    margin-top: 95px;
+    width: 100%;
+    height: 300px;
+}
+
+
+.movielistContainer{
+    padding: 0 30px;
+}
+
+
+.listTitle{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.movieList{
+    display: flex;
+    align-items: center;
+    height: 450px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+
+.movieItem{
+    margin-right: 60px;
+    margin-top: 30px;
+    position: relative;
+    
+}
+
+.movieItem:hover .movieImage  {
+    transform: scale(1.2);
+    margin: 0 30px;
+    opacity: 0.5;
+}
+
+
+.movieItem:hover .movielistbutton {
+    opacity: 1;
+}
+
+.movieImage{
+    height: 350px;
+    width: 550px;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+    border-radius: 20px;
+}
+
+.movielistbutton {
+    padding: 10px;
+    background-color: #4dbf00;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+
+.movielistbutton a{
+    text-decoration: none; 
+    color:white; 
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.featured-button {
+    background-color: #4dbf00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+  }
+  
+
+
+
+
+
+
+
+

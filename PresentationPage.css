@@ -1,0 +1,53 @@
+body{
+    background-color: #000000;
+}
+
+.fade{
+    opacity: 0;
+    transition: 1s;
+}
+
+.Container{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+
+.Logo{
+    position: relative;
+    left: 25%;
+    width: 200px; 
+    height: 200px;
+    
+}
+
+
+.LogoName{
+    position: relative;
+    margin-top: -20px;
+    left: 23%;
+    color: #ffaf38; 
+    font-family: Luminari; 
+    font-size: 50px;
+    transition: ease-out 0.5s;
+}
+
+.TagLine{
+    position: relative;
+    color: white; 
+    font-family: Courier; 
+    font-size: 20px;
+    transition: ease-out 0.5s;
+}
+
+p{
+    color: white; 
+    font-size: 20px;
+    position: absolute;
+    top: 75%;
+    left: 41%;
+}
+
+
+

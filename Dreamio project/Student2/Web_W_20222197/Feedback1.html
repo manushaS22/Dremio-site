@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Feedback</title>
+	<link rel="icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" href="Feedback1.css">
+	<!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+<body>
+	
+	<!--Navbar-->
+	<header class="header">
+      <a href="#">
+        <img class="logo" alt="Dreamio logo"  src="logo.gif" >
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+			<li><a class="main-nav-link" href="file:///Users/vinuraimesh/Documents/Dreamio%20project/Student2/Web_W_20222197/Main.html">HOME</a></li>
+			<li><a class="main-nav-link" href="file:///Users/vinuraimesh/Documents/Dreamio%20project/Student1/BuyProducts/BuyProducts.html">SHOP</a></li>
+			<li><a class="main-nav-link" href="file:///Users/vinuraimesh/Documents/Dreamio%20project/Student4/student%204/gallery.html">GALLERY</a></li>
+			<li><a class="main-nav-link" href="file:///Users/vinuraimesh/Documents/Dreamio%20project/Student4/student%204/sitemap.html">SITEMAP</a></li>
+			<li><a class="main-nav-link" href="file:///Users/vinuraimesh/Documents/Dreamio%20project/Student3/Quiz/index.html">QUIZ</a></li>
+			<li><a class="main-nav-link" href="file:///Users/vinuraimesh/Documents/Dreamio%20project/Student2/Web_W_20222197/Feedback1.html">FEED BACK</a></li>
+			<li><a class="main-nav-link" href="file:///Users/vinuraimesh/Documents/Dreamio%20project/Student3/stdetailpage/index.html">ABOUT US</a></li>
+        </ul>
+      </nav>    
+    </header>
+	<!-- Feedback Form Section -->
+	<div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h1>Give Your Feedback</h1>
+	<div class="container">
+		<!-- Feedback form with fieldset -->
+	<form action="Thankyou.html">
+		<fieldset>
+		<div class="row">
+		<div class="col-25">	
+		<label><b>Full Name:</b>
+		</div>
+		<div class="col-75">
+			<input type="text" name="name" size="30" placeholder="Enter your full name"required>
+		</div>
+		</label><br>
+		<br>
+		<br>
+		<div class="row">
+		<div class="col-25">
+		<label><b>Email Address:</b>
+		</div>
+		<div class="col-75">
+	      <input type = "text" name="email address" size="30" placeholder="Enter your Email"required>
+		</div>
+		</label><br>
+		<br>	
+		<b>How satisfied are you with our website?</b><br>
+		<!-- Radio buttons for different satisfaction levels -->
+			<input type="radio" name="satisfied" id="rbu1">
+			<label id="l1"><b>Extremely Satisfied</b><br></label>
+			<input type="radio" name="satisfied" id="rbu2">
+			<label id="l2"><b>Very Satisfied<b/><br></label>
+			<input type="radio" name="satisfied" id="rbu3" checked>
+			<label id="l3"><b>Moderately Satisfied<b/><br></label>
+			<input type="radio" name="satisfied" id="rbu4">
+			<label id="l4"><b>Not so Satisfied<b/><br></label><br>
+			<input type="radio" name="satisfied" id="rbu5">
+			<label id="l5"><b>Not at all Satisfied<b/><br></label><br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<label for="feedback" id="anycom"><b>Any comments:</b><br></label>
+		<textarea name="feedback" id="feedback" rows="8" cols="40">
+		</textarea><br>
+		<br>
+		<br>
+		<br>
+		<div class="row">
+		<div class="col-25">
+		<label for="course"><b>What kind of movies do you like?<b/>
+		</div>
+		<div class="col-75">
+			<!-- Dropdown menu for movie preferences -->
+		<select name="music" id ="music">
+	      <option value="" selected disabled><b>Please Select<b/></option>
+          <option value="phone"><b>Adventure<b/></option>
+          <option value="computer"><b>Sci-fi<b/></option>
+          <option value="radio"><b>Horror<b/></option>
+          <option value="ipod"><b>Triller<b/></option>
+          <option value="cd"><b>Action<b/></option>
+          <option value="other"><b>Mystery<b/></option>
+		  <option value="other"><b>Comedy<b/></option>
+		  <option value="other"><b>Romance<b/></option>
+		</select><br>
+		</div>
+		</label>
+		<br>
+		<br>
+		<!-- Device Preference -->
+		<div class="row">
+		<div class="col-25">
+		<label for="course" id="course1"><b>What do you use to watch movies the most?<b/>
+		</div>
+		<div class="col-75">
+			<!-- Dropdown menu for device preferences -->
+		<select name="music" id ="music">
+	      <option value="" selected disabled><b>Please Select<b/></option>
+          <option value="phone"><b>Phone<b/></option>
+          <option value="computer"><b>Computer<b/></option>
+          <option value="other"><b>Tab<b/></option>
+		</select><br>
+		</div>
+		</label>
+		<br>
+		<br>
+		<!-- Submit Button -->
+		<div id="error4" class="error"></div>
+		<button type="submit" name="submit">Submit</button>
+		</fieldset>
+	</form>
+	
+	</div>
+	
+</body>
+</html>

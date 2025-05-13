@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thank You</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        color: #ee7809;
+      }
+
+      .container {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+      }
+
+      .btn {
+        width: 200px;
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        border: none;
+        border-radius: 30px;
+        background-color: #ee7809;
+        color: black;
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+    }
+    .btn:hover {
+        background-color: #f04805;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Thank You for Submitting Our Form</h1>
+      <p>We appreciate your interest and will be in touch soon.</p>
+      <button class="btn" type="button"><span>Back Home</span></button>
+    </div>
+
+    <script type="text/javascript">
+      const btn = document.querySelector(".btn");
+
+      btn.addEventListener("click", () => {
+        window.location.href = "Main.html";
+      });
+    </script>
+  </body>
+</html>

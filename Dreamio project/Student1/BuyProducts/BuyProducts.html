@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dreamio - Unleash Your Cinametic Imagination</title>
+    <link rel="icon" href="logo.png" type="image/png"><!--add the logo to title-->
+    <link rel="stylesheet" href="BuyProducts.css"><!--link the css file-->
+  
+  </head>
+
+  <body>
+
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Dreamio logo"  src="logo.gif" >
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="file:///Users/vinuraimesh/Documents/Dreamio%20project/Student2/Web_W_20222197/Main.html">HOME</a></li>
+          <li><a class="main-nav-link" href="file:///Users/vinuraimesh/Documents/Dreamio%20project/Student1/BuyProducts/BuyProducts.html">SHOP</a></li>
+          <li><a class="main-nav-link" href="file:///Users/vinuraimesh/Documents/Dreamio%20project/Student4/student%204/gallery.html">GALLERY</a></li>
+          <li><a class="main-nav-link" href="file:///Users/vinuraimesh/Documents/Dreamio%20project/Student4/student%204/sitemap.html">SITEMAP</a></li>
+          <li><a class="main-nav-link" href="file:///Users/vinuraimesh/Documents/Dreamio%20project/Student3/Quiz/index.html">QUIZ</a></li>
+          <li><a class="main-nav-link" href="file:///Users/vinuraimesh/Documents/Dreamio%20project/Student2/Web_W_20222197/Feedback1.html">FEED BACK</a></li>
+		      <li><a class="main-nav-link" href="file:///Users/vinuraimesh/Documents/Dreamio%20project/Student3/stdetailpage/index.html">ABOUT US</a></li>
+        </ul>
+      </nav>    
+    </header>
+
+    <!--creat a container to add the products-->
+    <div class="product_container">
+      <h3 class="container_topic">Choose Your Products</h3><!--set the container topic-->
+      <h5 id="catogary1">Movies</h5>
+
+      <!--product1-->
+      <div class="product1">
+        <button id="product1_button" onclick="updateProduct('p1name', 'p1price')"><img src="images/p1.jpeg" id="product_image1" alt="product1"></button>
+        <p id="p1name">Adam Project</p><!--product name-->
+        <h4 class="pound_sign">&pound;</h4><h4 id="p1price">10</h4><!--product price with pound sign-->
+      </div>
+      <!--product2-->
+      <div class="product2">
+        <button id="product2_button" onclick="updateProduct('p2name', 'p2price')"><img src="images/p2.jpeg" id="product_image2" alt="product2"></button>
+        <p id="p2name">Bat Man</p><!--product name-->
+        <h4 class="pound_sign">&pound;</h4><h4 id="p2price">23</h4><!--product price with pound sign-->
+      </div>
+      <!--product3-->
+      <div class="product3">
+        <button id="product3_button" onclick="updateProduct('p3name', 'p3price')"><img src="images/p3.jpeg" id="product_image3" alt="product3"></button>
+        <p id="p3name">Morbius</p><!--product name-->
+        <h4 class="pound_sign">&pound;</h4><h4 id="p3price">13</h4><!--product price with pound sign-->
+      </div>
+      <!--product4-->
+      <div class="product4">
+        <button id="product4_button" onclick="updateProduct('p4name', 'p4price')"><img src="images/p4.jpeg" id="product_image4" alt="product4"></button>
+        <p id="p4name">Kings Man</p><!--product name-->
+        <h4 class="pound_sign">&pound;</h4><h4 id="p4price">24</h4><!--product price with pound sign-->
+      </div>
+      <!--product5-->
+      <div class="product5">
+        <button id="product5_button" onclick="updateProduct('p5name', 'p5price')"><img src="images/p5.jpeg" id="product_image5" alt="product5"></button>
+        <p id="p5name">Free Guy</p><!--product name-->
+        <h4 class="pound_sign">&pound;</h4><h4 id="p5price">5</h4><!--product price with pound sign-->
+      </div>
+      <!--product6-->
+      <div class="product6">
+        <button id="product6_button" onclick="updateProduct('p6name', 'p6price')"><img src="images/p6.jpeg" id="product_image6" alt="product6"></button>
+        <p id="p6name">Uncharted</p><!--product name-->
+        <h4 class="pound_sign">&pound;</h4><h4 id="p6price">16</h4><!--product price with pound sign-->
+      </div>
+      <!--product7-->
+      <div class="product7">
+        <button id="product7_button" onclick="updateProduct('p7name', 'p7price')"><img src="images/p7.jpeg" id="product_image7" alt="product7"></button>
+        <p id="p7name">The North Man</p><!--product name-->
+        <h4 class="pound_sign">&pound;</h4><h4 id="p7price">12</h4><!--product price with pound sign-->
+      </div>
+      <!--product8-->
+      <div class="product8">
+        <button id="product8_button" onclick="updateProduct('p8name', 'p8price')"><img src="images/p8.jpeg" id="product_image8" alt="product8"></button>
+        <p id="p8name">Sonic 2</p><!--product name-->
+        <h4 class="pound_sign">&pound;</h4><h4 id="p8price">8</h4><!--product price with pound sign-->
+      </div>
+      <!--product9-->
+      <div class="product9">
+        <button id="product9_button" onclick="updateProduct('p9name', 'p9price')"><img src="images/p9.jpeg" id="product_image9" alt="product9"></button>
+        <p id="p9name">Deth of the Nile</p><!--product name-->
+        <h4 class="pound_sign">&pound;</h4><h4 id="p9price">10</h4><!--product price with pound sign-->
+      </div>
+      <!--product10-->
+      <div class="product10">
+        <button id="product10_button" onclick="updateProduct('p10name', 'p10price')"><img src="images/p10.jpeg" id="product_image10" alt="product10"></button>
+        <p id="p10name">Memory</p><!--product name-->
+        <h4 class="pound_sign">&pound;</h4><h4 id="p10price">5</h4><!--product price with pound sign-->
+      </div>
+      <!--product11-->
+      <div class="product11">
+        <button id="product11_button" onclick="updateProduct('p11name', 'p11price')"><img src="images/p11.jpeg" id="product_image11" alt="product11"></button>
+        <p id="p11name">Massive Tallent</p><!--product name-->
+        <h4 class="pound_sign">&pound;</h4><h4 id="p11price">6</h4><!--product price with pound sign-->
+      </div>
+
+    </div>
+    <!--end of the product container-->
+
+    <!--creating a container for cart-->
+    <div class="price_container">
+        <h3>Your Orders</h3>
+        <p>
+          <span id = "name"></span><!--make place holder for add the name-->
+          <span id = "price"></span><!--make place holder for add the price-->
+        </p>
+        <p>
+          <span id = "name1"></span><!--make place holder for add the name-->
+          <span id = "price1"></span><!--make place holder for add the price-->
+        </p>
+        <p>
+          <span id = "name2"></span><!--make place holder for add the name-->
+          <span id = "price2"></span><!--make place holder for add the price-->
+        </p>
+        <p>
+          <span id = "name3"></span><!--make place holder for add the name-->
+          <span id = "price3"></span><!--make place holder for add the price-->
+        </p>
+        <p>
+          <span id = "name4"></span><!--make place holder for add the name-->
+          <span id = "price4"></span><!--make place holder for add the price-->
+        </p>
+        <p>
+          <span id = "name5"></span><!--make place holder for add the name-->
+          <span id = "price5"></span><!--make place holder for add the price-->
+        </p>
+        <p>
+          <span id = "name6"></span><!--make place holder for add the name-->
+          <span id = "price6"></span><!--make place holder for add the price-->
+        </p>
+        <p>
+          <span id = "name7"></span><!--make place holder for add the name-->
+          <span id = "price7"></span><!--make place holder for add the price-->
+        </p>
+        <p>
+          <span id = "name8"></span><!--make place holder for add the name-->
+          <span id = "price8"></span><!--make place holder for add the price-->
+        </p>
+        <p>
+          <span id = "name9"></span><!--make place holder for add the name-->
+          <span id = "price9"></span><!--make place holder for add the price-->
+        </p>
+        <p>
+          <span id = "name10"></span><!--make place holder for add the name-->
+          <span id = "price10"></span><!--make place holder for add the price-->
+        </p>
+
+        <P id="total">Total &pound;</P>
+        <p id="TotalPrice"></p><!--make place holder for add the Total amount-->
+
+        <button id="clearButton" onclick="clearOrders()">Clear</button><!--make the clear button and add the function-->
+        <button id="SubmitButton" onclick="Visible_form()">Place Order</button><!--make the place order button and add the function-->
+    </div>
+    <!--end of the price container-->
+
+    <!--creating the payment form-->
+    <form class="payment_form">
+      <fieldset id="order_container"><!--creating a fieldset for contain the order details-->
+          <label id="topic">Order summary</label>
+          <label id="reference">Reference :</label>
+          <label id="ref_value"></label>
+          <label id="amount">Amount :</label>
+          <label id="sign">&pound;</label>
+          <label id="amount_value1"></label>
+      </fieldset>
+
+      <fieldset id="detail_container"><!--creating a fieldset for contain the customer details-->
+        <label id="topic1">Customer Details</label>
+
+        <label for="full_name" id="l1">Full Name</label>
+        <input type="text" id="full_name" placeholder="Your Name" name="full_name" required><!--ask the full name and set it to required-->
+
+        <label for="address" id="l2">Address</label>
+        <input type="text" id="address" placeholder="Your Address" name="address" required><!--ask the address and set it to required-->
+
+        <label for="email" id="l3">Email</label>
+        <input type="email" id="email" placeholder="ex: example@email.com" name="mail" required><!--ask the email and set it to required-->
+
+        <label for="telephone" id="l4">Telephone</label>
+        <input type="tel" id="telephone" placeholder="ex: 077XXXXXXX" name="phone" required><!--ask the phone number and set it to required-->
+      </fieldset>
+
+      <input type="button" id="cancle_button" value="Cancel" onclick="remove_form()"><!--make the cancel button and add the function-->
+      <input type="reset" id="reset_button"><!--make the reset button-->
+      <input type="submit" id="submit_button" onclick="submit_detail()"><!--make the submit button and add the function-->
+    </form>
+    <!--end of the form-->
+    
+    <script src="BuyProducts.js"></script><!--link the java scriept file for buy producrs-->
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+  /* Flex container to center content vertically and horizontally */
+	display:flex;
+	min-height:100px;
+	justify-content:center;
+  /* Set background image and adjust its size to cover the entire viewport */
+	background-image:url(fd3-1.jpg);
+	background-size:cover;
+}
+/* HEADER */
+
+.header {
+  /* Flex container with space between items */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* Because we want header to be sticky later */
+  height: 98px;
+  padding: 14px;
+  position: fixed;
+  z-index: 9;
+  /* Apply blur effect to the background */
+  backdrop-filter: blur(30px);
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+}
+
+/* NAVIGATION */
+
+.main-nav-list {
+  /* Remove default list styles and display links horizontally with spacing */
+  list-style: none;
+  display: flex;
+  gap: 110px;
+}
+
+.main-nav-link{
+  text-decoration: none; /* Remove the underline */
+  color:white;
+  font-weight: 1000;
+  font-size: 16px;
+ 
+}
+
+.main-nav-link:hover{
+  color: orange;
+  /* color: #fff; */
+  text-shadow: 0 0 7px #d0e4ec, 0 0 10px #b9d7e3, 0 0 21px #a1cad9,
+    0 0 42px #8abdd0;
+}
+
+h1{
+	text-align:center;
+	color:white;
+}
+.container{
+	margin-top:10px;
+	width:600px;
+	background:#E8E0DB;
+  /* Add box shadow effect to the container */
+	box-shadow:30px rgba(500,500,500,0.6);
+  /* Set opacity for the container */
+	opacity:0.8;
+}
+.container form{
+	width:600px;
+	text-align:center;
+	color:black;
+	padding:30px ;
+	font-weight:600px;
+}
+.SubButton{
+	background-color:red;
+	width:100px;
+	height:30px;
+	border-radius:0.3cm;
+}
+/* Radio Button and Label Styles */
+/* Position each radio button and label element */
+
+#rbu1{
+  position: absolute;
+  top: 80.5%;
+  left: 42%;
+}
+
+#rbu2{
+  position: absolute;
+  top: 83.5%;
+  left: 42%;
+}
+
+#rbu3{
+  position: absolute;
+  top: 86.5%;
+  left: 42%;
+}
+
+#rbu4{
+  position: absolute;
+  top: 89.5%;
+  left: 42%;
+}
+
+#rbu5{
+  position: absolute;
+  top: 92.5%;
+  left: 42%;
+}
+
+
+#l1{
+  position: absolute;
+  top: 80.5%;
+  left: 44%;
+}
+
+#l2{
+  position: absolute;
+  top: 83.5%;
+  left: 44%;
+}
+
+#l3{
+  position: absolute;
+  top: 86.5%;
+  left: 44%;
+}
+
+#l4{
+  position: absolute;
+  top: 89.5%;
+  left: 44%;
+}
+
+#l5{
+  position: absolute;
+  top: 92.5%;
+  left: 44%;
+}
+/* Position and Styles for Comments Section */
+#anycom{
+  position: relative;
+  top: 30px;
+}
+
+#feedback{
+  position: relative;
+  top: 30px;
+}
